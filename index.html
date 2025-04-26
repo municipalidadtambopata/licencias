@@ -78,7 +78,8 @@
         const datos = {
             "21146301": {
                 nombre: "Freddy Guillermo Benavente Fabian",
-                estado: "Activo",
+                licencia: "MPT-21146301",
+	        estado: "Activo",
                 clase: "B",
                 categoria: "IIC",
                 expedicion: "05/09/2024",
@@ -90,7 +91,8 @@
             },
             "44745647": {
                 nombre: "Neil Olórtegui Bardales",
-                estado: "Activo",
+                licencia: "MPT-21146301",
+		estado: "Activo",
                 clase: "B",
                 categoria: "IIC",
                 expedicion: "10/01/2024",
@@ -112,6 +114,7 @@
                 resultado.innerHTML = `
                     <h3>Resultado de la consulta</h3>
                     <p><strong>Nombre:</strong> ${d.nombre}</p>
+		    <p><strong>Nro Licencia:</strong> ${d.licencia}</p>
                     <p><strong>Estado:</strong> ${d.estado}</p>
                     <p><strong>Clase:</strong> ${d.clase}</p>
                     <p><strong>Categoría:</strong> ${d.categoria}</p>
@@ -131,3 +134,4 @@
     </script>
 </body>
 </html>
+
